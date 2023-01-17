@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&family=Ubuntu&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+h1{
+    letter-spacing: 4px;
+    font-family: inherit;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 20px;
+    color:brown
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1000px;
+    flex-wrap: wrap;
+}
+img{
+    object-fit: cover;
+    height: 300px;
+    margin: 5px;
+    width: 300px;
+    max-width: 100%;
+}
